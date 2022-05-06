@@ -113,7 +113,8 @@ ul {
   font-family: "Poppins", sans-serif;
 }
 
-span {
+span,
+.price {
   font-weight: bold;
 }
 .location {
@@ -130,7 +131,7 @@ span {
   --font-light: #ffffff;
 }
 .lightMode {
-  --bg-color: #e8e6dc;
+  --bg-color: #fff;
   --bg-light: #dcdaca;
   --font-color: #3d3d3d;
   --font-light: #202020;
