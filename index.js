@@ -9,5 +9,5 @@ function modeSwitch() {
 
   isLight ? (toggle.innerText = "🌞") : (toggle.innerText = "🌚");
 
-  root.classList.toggle("lightMode");
+  root.classList.toggle("darkMode");
 }

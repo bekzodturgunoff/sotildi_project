@@ -125,16 +125,16 @@ span,
 /* Common Style */
 /* switch color theme */
 :root {
-  --bg-color: #171923;
-  --bg-light: #232535;
-  --font-color: #c5cddb;
-  --font-light: #ffffff;
-}
-.lightMode {
   --bg-color: #fff;
   --bg-light: #dcdaca;
   --font-color: #3d3d3d;
   --font-light: #202020;
+}
+.darkMode {
+  --bg-color: #171923;
+  --bg-light: #232535;
+  --font-color: #c5cddb;
+  --font-light: #ffffff;
 }
 /* end switch color theme */
 .nav-links #toggle {
