@@ -1,16 +1,13 @@
-// const toggle = document.querySelector("#toggle");
+const toggle = document.querySelector("#toggle");
+toggle.addEventListener("click", modeSwitch);
 
-// toggle.addEventListener("click", modeSwitch);
+let isLight = true;
 
-// let isLight = true;
+function modeSwitch() {
+  isLight = !isLight;
+  let root = document.body;
 
-// console.log(isLight);
+  isLight ? (toggle.innerText = "🌞") : (toggle.innerText = "🌚");
 
-// function modeSwitch() {
-//   isLight = !isLight;
-//   let root = document.body;
-
-//   isLight ? (toggle.innerText = "🌞") : (toggle.innerText = "🌚");
-
-//   root.classList.toggle("lightMode");
-// }
+  root.classList.toggle("lightMode");
+}
