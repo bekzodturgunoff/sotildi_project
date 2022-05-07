@@ -133,7 +133,7 @@ span,
 .darkMode {
   --bg-color: #171923;
   --bg-light: #232535;
-  --font-color: #c5cddb;
+  --font-color: #000;
   --font-light: #ffffff;
 }
 /* end switch color theme */
@@ -150,15 +150,7 @@ body {
 p {
   color: var(--font-color);
 }
-.container {
-  max-width: 1200px;
-  display: block;
-  margin: auto;
-  padding: 0 1rem;
-}
-.highlight {
-  color: var(--font-light);
-}
+
 .btn {
   padding: 10px 30px;
   border: 3px solid var(--font-light);
@@ -168,36 +160,11 @@ p {
   color: var(--bg-color);
   background-color: var(--font-light);
 }
-/* End Common Styles */
 
-/* Navbar */
 nav {
   background-color: var(--primary);
 }
-nav .container {
-  display: block;
-  padding: 2rem 1.5rem;
-  margin: 2rem auto;
-  text-align: center;
-}
 
-nav .nav-links .nav-item {
-  list-style: none;
-  display: inline;
-  border-radius: 0.25rem;
-  line-height: 1.5rem;
-  padding: 0.5rem 0.75rem;
-  margin: 1rem;
-  transition: all 250ms;
-  cursor: pointer;
-}
-nav .nav-links .active {
-  font-weight: 700;
-  color: var(--link-btn);
-}
-nav .nav-links .nav-item:hover {
-  background-color: var(--bg-light);
-}
 a {
   text-decoration: none;
   color: var(--link-btn);
