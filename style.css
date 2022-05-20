@@ -3,169 +3,115 @@
   padding: 0;
 }
 
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  /* border-bottom: 1px solid #e6e6e6; */
-  background-color: #e6e6e6;
-  margin: 1rem;
-  padding: 10px;
-  border-radius: 8px;
-}
-
-.logo img {
-  height: 70px;
-}
-
-.links a {
-  text-decoration: none;
-  color: black;
-  color: #0767ff;
-  font-size: 20px;
-  font-family: "Poppins", sans-serif;
-  margin-right: 8px;
-}
-
-ul {
-  display: flex;
-  gap: 1rem;
-}
-
-#search-bar {
-  width: 50%;
-  height: 2rem;
-  font-size: 20px;
-  text-indent: 1rem;
-  border-radius: 5px;
-  border: 1px solid;
-}
-#search-bar:focus {
-  outline: 2px solid #0767ff;
-  border: none;
-}
-
-.category img {
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-}
-
-.category {
-  display: flex;
-  gap: 2rem;
-  border: 1px solid #3a86ff;
-  margin: 1rem;
-  border-radius: 8px;
-  padding: 1rem;
-  justify-content: center;
-}
-
-.item {
-  display: flex;
-  flex-direction: row;
-  width: min-content;
-  text-align: center;
-}
-
-.item a {
-  text-decoration: none;
-  color: #3a86ff;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-}
-
-.heading {
-  margin: 1rem;
-  padding: 1rem;
-  /* border: 1px solid; */
-  border-radius: 8px;
-  max-width: 1000px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  background-color: #3a86ff;
-}
-
-.product img {
-  height: 210px;
-  border-radius: 8px;
-}
-
-.product-bottom {
-  display: flex;
-  justify-content: space-between;
-}
-.product-bottom svg {
-  height: 20px;
-}
-
-.product {
-  /* border: 1px solid; */
-  width: min-content;
-  word-wrap: break-word;
-  border-radius: 8px;
-  padding: 0.5rem;
-  margin: auto;
-  background-color: #fff;
-  font-family: "Poppins", sans-serif;
-}
-
-span,
-.price {
-  font-weight: bold;
-}
-.location {
-  margin-top: 8px;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-/* Common Style */
-/* switch color theme */
 :root {
-  --bg-color: #fff;
-  --bg-light: #dcdaca;
-  --font-color: #3d3d3d;
-  --font-light: #202020;
-}
-.darkMode {
-  --bg-color: #171923;
-  --bg-light: #232535;
-  --font-color: #000;
-  --font-light: #ffffff;
-}
-/* end switch color theme */
-.nav-links #toggle {
-  pointer: cursor !important;
+  --font-one: "Montserrat", sans-serif;
 }
 
 body {
-  color: var(--font-light);
-  font-family: "Montserrat", sans-serif;
-  background-color: var(--bg-color);
-  transition: all 500ms;
-}
-p {
-  color: var(--font-color);
+  margin-left: 21rem;
+  margin-right: 21rem;
+  background-color: #f4f5f5;
 }
 
-.btn {
-  padding: 10px 30px;
-  border: 3px solid var(--font-light);
-  transition: all 250ms;
-}
-.btn:hover {
-  color: var(--bg-color);
-  background-color: var(--font-light);
-}
-
-nav {
-  background-color: var(--primary);
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f5f5f5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: var(--font-one);
+  background-color: #fff;
 }
 
-a {
-  text-decoration: none;
-  color: var(--link-btn);
+.logo-holder img {
+  width: 10rem;
+}
+
+.right-side-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.user {
+  display: flex;
+  gap: 1rem;
+}
+
+.advertisement {
+  width: 260px;
+  height: 60px;
+  background-color: #3a86ff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: var(--font-one);
+}
+
+.search-container {
+  margin-top: 25px;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-one);
+}
+
+.category {
+  border: 1px solid #f4f5f5;
+  width: 210px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.search-input {
+  width: 570px;
+  height: 60px;
+  background-color: #f4f5f5;
+  border: 1px solid #f4f5f5;
+  color: #bdbdbd;
+  border-radius: 5px;
+  text-indent: 1rem;
+}
+.search-input:focus {
+  outline: 2px solid #3a86ff;
+}
+
+.search-btn {
+  background-color: #bacad3;
+  border: none;
+  width: 195px;
+  height: 60px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.category-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+  align-items: center;
+}
+
+.category-items {
+  display: flex;
+  gap: 3rem;
+}
+
+.item {
+  width: 217px;
+  height: 161px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.item img {
+  width: 70px;
 }
