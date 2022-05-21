@@ -91,6 +91,7 @@ body {
   justify-content: space-between;
   margin-top: 6rem;
   align-items: center;
+  font-family: var(--font-one);
 }
 
 .category-items {
@@ -111,6 +112,7 @@ body {
   text-align: center;
   border: 1px solid #f4f5f5;
   border-radius: 5px;
+  font-family: var(--font-one);
 }
 
 .item img {
