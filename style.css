@@ -141,6 +141,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+  margin-bottom: 1rem;
 }
 
 .advertisement {
@@ -150,8 +151,15 @@ h1 {
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 }
 .advertisement img {
   max-width: 260px;
   max-height: 140px;
+}
+
+.location-time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
 }
