@@ -125,6 +125,7 @@ body {
   border-radius: 5px;
   font-family: var(--font-one);
   transition: 0.2s ease;
+  padding: 0.5rem;
 }
 
 .item img {
