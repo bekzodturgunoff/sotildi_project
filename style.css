@@ -5,6 +5,7 @@
 
 :root {
   --font-one: "Montserrat", sans-serif;
+  --font-two: "Poppins", sans-serif;
 }
 
 body {
@@ -37,7 +38,7 @@ body {
   gap: 1rem;
 }
 
-.advertisement {
+.advertisement-btn {
   width: 260px;
   height: 60px;
   background-color: #3a86ff;
@@ -130,4 +131,27 @@ body {
 
 .item img {
   width: 70px;
+}
+
+h1 {
+  font-family: var(--font-two);
+}
+
+.advertisements-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.advertisement {
+  border: 1px solid #f4f5f5;
+  border-radius: 5px;
+  font-family: var(--font-one);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.advertisement img {
+  max-width: 260px;
+  max-height: 140px;
 }
