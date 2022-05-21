@@ -45,6 +45,7 @@ body {
   border-radius: 5px;
   color: #fff;
   font-family: var(--font-one);
+  transition: 0.2s ease;
 }
 
 .search-container {
@@ -62,6 +63,15 @@ body {
   height: 60px;
   background-color: #fff;
   border-radius: 5px;
+  transition: 0.2s ease;
+}
+
+.category:active,
+.advertisement:active,
+.search-btn:active,
+.item:active {
+  box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
+  transform: scale(0.98);
 }
 
 .search-input {
@@ -84,6 +94,7 @@ body {
   height: 60px;
   border-radius: 5px;
   color: #fff;
+  transition: 0.2s ease;
 }
 
 .category-text {
@@ -113,6 +124,7 @@ body {
   border: 1px solid #f4f5f5;
   border-radius: 5px;
   font-family: var(--font-one);
+  transition: 0.2s ease;
 }
 
 .item img {
