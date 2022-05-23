@@ -176,12 +176,6 @@ h1 {
   background-color: #fff;
 }
 
-.fa-heart {
-  position: relative;
-  bottom: 16.5rem;
-  left: 13rem;
-}
-
 .advertisement img {
   max-width: 260px;
   max-height: 140px;
@@ -237,6 +231,17 @@ h1 {
   gap: 2rem;
 }
 
+.fa-heart {
+  position: relative;
+  bottom: 14.5rem;
+  left: 12.5rem;
+  font-size: 1.5rem;
+}
+
+.fa-regular {
+  width: fit-content;
+}
+
 @media (max-width: 1100px) {
   .hero-container {
     padding-left: 1rem;
@@ -259,6 +264,12 @@ h1 {
   }
   .item {
     margin: auto;
+  }
+  .fa-heart {
+    position: relative;
+    bottom: 15.5rem;
+    left: 11.5rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -286,6 +297,13 @@ h1 {
     grid-template-columns: 1fr;
   }
 
+  .advertisement {
+    width: 270px;
+  }
+
+  .advertisement img {
+    width: 260px;
+  }
   .logo-holder img {
     width: 7rem;
   }
@@ -301,5 +319,15 @@ h1 {
   .navbar-container {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .fa-heart {
+    bottom: 14.5rem;
+    left: 14rem;
+    font-size: 1.5rem;
+  }
+  .section-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
 }
