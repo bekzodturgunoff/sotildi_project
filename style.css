@@ -10,11 +10,10 @@
 
 body {
   margin: auto;
-  background-color: #f5f5f5;
 }
 
 .navbar-container {
-  background-color: #fff;
+  background-color: rgba(58, 134, 255, 0.05);
   padding-left: 13rem;
   padding-right: 13rem;
   padding-bottom: 2rem;
@@ -65,7 +64,6 @@ a {
   height: 60px;
   background-color: #0767ff;
   border: none;
-  border-radius: 5px;
   color: #fff;
   font-family: var(--font-one);
   transition: 0.2s ease;
@@ -86,7 +84,6 @@ a {
   width: 210px;
   height: 60px;
   background-color: #fff;
-  border-radius: 5px;
   transition: 0.2s ease;
   cursor: pointer;
 }
@@ -103,10 +100,8 @@ a {
 .search-input {
   width: 570px;
   height: 60px;
-  background-color: #f4f5f5;
   border: 1px solid #f4f5f5;
   color: #bdbdbd;
-  border-radius: 5px;
   text-indent: 1rem;
 }
 .search-input:focus {
@@ -114,11 +109,10 @@ a {
 }
 
 .search-btn {
-  background-color: #bacad3;
+  background-color: #0767ff;
   border: none;
   width: 195px;
   height: 60px;
-  border-radius: 5px;
   color: #fff;
   transition: 0.2s ease;
   cursor: pointer;
@@ -149,11 +143,11 @@ a {
   margin-top: 3rem;
   text-align: center;
   border: 1px solid #f4f5f5;
-  border-radius: 5px;
   font-family: var(--font-one);
   transition: 0.2s ease;
   padding: 0.5rem;
   cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .item img {
@@ -172,7 +166,6 @@ h1 {
 }
 
 .advertisement {
-  border-radius: 5px;
   font-family: var(--font-one);
   padding: 0.5rem;
   display: flex;
@@ -182,6 +175,7 @@ h1 {
   cursor: pointer;
   background-color: #fff;
   display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .advertisement img {
@@ -195,33 +189,40 @@ h1 {
   font-size: 12px;
 }
 
-.fa-3x {
-  margin-top: 3rem;
-  display: flex;
-  justify-content: center;
+.next-previous-btn {
+  width: 150px;
+  height: 40px;
+  border: 1px solid #0767ff;
+  background-color: #fff;
+  color: #0767ff;
+  transition: 0.1s ease;
+  cursor: pointer;
 }
 
-.load-more-btn {
-  width: 210px;
-  height: 60px;
-  border: 2px solid #bacad3;
-  background-color: #f4f5f5;
-  color: #bacad3;
-  border-radius: 5px;
-  transition: 0.1s ease;
-  text-align: center;
-  cursor: pointer;
+.next-previous-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: var(--font-two);
+  margin-top: 2rem;
+}
+
+.page-links {
+  font-size: 15px;
 }
 
 .section-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
+  background-color: rgba(58, 134, 255, 0.05);
   padding: 1.5rem;
   border-radius: 5px;
   font-family: var(--font-one);
   margin-top: 2rem;
+  padding-left: 13rem;
+  padding-right: 13rem;
 }
 
 .grey {
