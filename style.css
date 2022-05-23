@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+.small-logo {
+  display: none;
+}
+
 .logo-holder img {
   width: 10rem;
   cursor: pointer;
@@ -312,6 +316,21 @@ h1 {
   }
   .category-text p {
     display: none;
+  }
+
+  .small-logo {
+    display: block;
+  }
+  .logo-holder img {
+    width: 100px;
+  }
+  .big-logo {
+    display: none;
+  }
+
+  .navbar-container {
+    padding-left: 8vh;
+    padding-right: 8vh;
   }
 }
 @media (max-width: 565px) {
