@@ -241,6 +241,9 @@ h1 {
 .fa-regular {
   width: fit-content;
 }
+.all-category {
+  display: none;
+}
 
 @media (max-width: 1100px) {
   .hero-container {
@@ -297,6 +300,13 @@ h1 {
     width: 100%;
   }
   .user {
+    display: none;
+  }
+
+  .all-category {
+    display: flex;
+  }
+  .category-text p {
     display: none;
   }
 }
