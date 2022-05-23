@@ -5,7 +5,7 @@
 
 :root {
   --font-one: 'Montserrat', sans-serif;
-  --font-two: 'Poppins', sans-serif;
+  --font-two: 'Roboto Mono', monospace;
 }
 
 body {
@@ -187,6 +187,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   font-size: 12px;
+  font-family: var(--font-two);
 }
 
 .next-previous-btn {
@@ -210,6 +211,7 @@ h1 {
 
 .page-links {
   font-size: 15px;
+  font-family: var(--font-two);
 }
 
 .section-menu {
@@ -240,16 +242,6 @@ h1 {
   gap: 2rem;
 }
 
-.fa-heart {
-  position: relative;
-  bottom: 14.5rem;
-  left: 12.5rem;
-  font-size: 1.5rem;
-}
-
-.fa-regular {
-  width: fit-content;
-}
 .all-category {
   display: none;
 }
