@@ -166,7 +166,6 @@ h1 {
 
 .advertisement {
   font-family: var(--font-one);
-  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -174,12 +173,19 @@ h1 {
   cursor: pointer;
   background-color: #fff;
   display: flex;
+  height: 350px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .advertisement img {
-  max-width: 260px;
-  max-height: 140px;
+  width: 250px;
+}
+
+.advertisement-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0.5rem;
 }
 
 .location-time {
@@ -211,6 +217,8 @@ h1 {
 .page-links {
   font-size: 15px;
   font-family: var(--font-two);
+  display: flex;
+  gap: 0.1rem;
 }
 
 .section-menu {
@@ -338,13 +346,11 @@ h1 {
     width: 130px;
   }
 
-  .advertisement {
-    width: 270px;
+  .advertisement,
+  .advertisement img {
+    width: 300px;
   }
 
-  .advertisement img {
-    width: 260px;
-  }
   .logo-holder img {
     width: 7rem;
   }
