@@ -34,6 +34,11 @@ body {
   font-family: var(--font-one);
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
 .logo-holder img {
   width: 10rem;
   cursor: pointer;
@@ -83,7 +88,6 @@ body {
 }
 
 .category-btn:active,
-.advertisement:active,
 .search-btn:active,
 .item:active,
 .advertisement-btn:active,
@@ -164,7 +168,6 @@ h1 {
 }
 
 .advertisement {
-  /* border: 1px solid #f4f5f5; */
   border-radius: 5px;
   font-family: var(--font-one);
   padding: 0.5rem;
@@ -174,6 +177,7 @@ h1 {
   transition: 0.1s ease;
   cursor: pointer;
   background-color: #fff;
+  display: flex;
 }
 
 .advertisement img {
