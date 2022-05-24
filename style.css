@@ -87,11 +87,9 @@ a {
   width: 210px;
   height: 60px;
   background-color: #fff;
-  transition: 0.2s ease;
   cursor: pointer;
 }
 
-.category-btn:active,
 .search-btn:active,
 .item:active,
 .advertisement-btn:active,
