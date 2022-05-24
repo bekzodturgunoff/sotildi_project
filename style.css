@@ -195,32 +195,6 @@ h1 {
   font-family: var(--font-two);
 }
 
-.next-previous-btn {
-  width: 150px;
-  height: 40px;
-  border: 1px solid #0767ff;
-  background-color: #fff;
-  color: #0767ff;
-  transition: 0.1s ease;
-  cursor: pointer;
-}
-
-.next-previous-btn-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  font-family: var(--font-two);
-  margin-top: 2rem;
-}
-
-.page-links {
-  font-size: 15px;
-  font-family: var(--font-two);
-  display: flex;
-  gap: 0.1rem;
-}
-
 .section-menu {
   display: flex;
   justify-content: space-between;
