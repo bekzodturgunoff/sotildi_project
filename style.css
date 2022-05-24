@@ -295,9 +295,7 @@ h1 {
   .small-logo {
     display: block;
   }
-  .logo-holder img {
-    width: 100px;
-  }
+
   .big-logo {
     display: none;
   }
@@ -306,6 +304,9 @@ h1 {
   .section-menu {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .logo-holder img {
+    width: 50px;
   }
 }
 @media (max-width: 565px) {
@@ -317,16 +318,12 @@ h1 {
     gap: 1rem;
   }
   .item {
-    width: 130px;
+    width: 140px;
   }
 
   .advertisement,
   .advertisement img {
     width: 300px;
-  }
-
-  .logo-holder img {
-    width: 7rem;
   }
 
   .advertisement-btn {
