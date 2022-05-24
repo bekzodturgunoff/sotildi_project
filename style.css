@@ -32,6 +32,9 @@ body {
   padding-bottom: 20px;
   font-family: var(--font-one);
 }
+#darkMode {
+  background-color: #0767ff;
+}
 
 a {
   color: #000;
