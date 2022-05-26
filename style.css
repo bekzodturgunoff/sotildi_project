@@ -305,12 +305,13 @@ margin-top: 6rem;
 margin-bottom: 5rem;
 font-family: var(--font-one);
 }
-#social-icon{
-  display: flex;
+#social-icons{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   width: min-content;
 }
 
-#social-icon img{
+#social-icons img{
   width: 2rem;  
 }
 
