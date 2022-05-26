@@ -459,4 +459,8 @@ font-family: var(--font-one);
     display: flex;
     justify-content: center;
   }
+
+  .sign-in{
+    display: none;
+  }
 }
