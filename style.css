@@ -321,8 +321,6 @@ font-family: var(--font-one);
   gap: 1rem;
 }
 
-
-
 @media (max-width: 1100px) {
   .hero-container {
     padding-left: 1rem;
