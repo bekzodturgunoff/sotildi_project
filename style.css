@@ -350,6 +350,12 @@ font-family: var(--font-one);
     left: 11.5rem;
     font-size: 1.5rem;
   }
+  .footer-texts{
+    padding: 1rem;
+  }
+
+ 
+ 
 }
 
 @media (max-width: 830px) {
@@ -402,6 +408,14 @@ font-family: var(--font-one);
   .logo-holder img {
     width: 50px;
   }
+
+  .footer-texts{
+    padding: 1rem;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+  }
 }
 @media (max-width: 565px) {
   .advertisements-grid {
@@ -433,5 +447,16 @@ font-family: var(--font-one);
     display: flex;
     flex-direction: column;
     gap: 2rem;
+  }
+
+  .footer-texts{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
   }
 }
