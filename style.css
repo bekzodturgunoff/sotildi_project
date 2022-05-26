@@ -45,7 +45,7 @@ a {
 }
 
 .logo-holder img {
-  width: 10rem;
+  width: 8rem;
   cursor: pointer;
 }
 
@@ -410,7 +410,7 @@ font-family: var(--font-one);
     padding-right: 1rem;
   }
   .logo-holder img {
-    width: 50px;
+    width: 2.5rem;
   }
 
   .footer-texts{
